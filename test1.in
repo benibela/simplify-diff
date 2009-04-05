@@ -1,0 +1,36 @@
+--- xyz
++++ xyz
+@@ -287,19 +289,19 @@
+ void EditUserTool();
+ 
+ void WebPublish();
+-void AnalyseText();
+-void AnalyseTextFormDestroyed();
+-
++void AnalyseText();
++void AnalyseTextFormDestroyed();
+ 
+-void ViewLog();
++
++void ViewLog();
+ void ClickedOnLogLine(const QModelIndex &);
+-void OutputViewVisibilityChanged(bool visible);
++void OutputViewVisibilityChanged(bool visible);
+ void LatexError();
+ void DisplayLatexError();
+-void GoToLogEntry(int logEntryNumber);
+-void GoToLogEntryAt(int newLineNumber);
+-void GoToMark(bool backward, int id);
+-void NextMark();
+-void PreviousMark();
+-void gotoNearLogEntry(LogType lt, bool backward, QString notFoundMessage);
++void GoToLogEntry(int logEntryNumber);
++void GoToLogEntryAt(int newLineNumber);
++void GoToMark(bool backward, int id);
++void NextMark();
++void PreviousMark();
++void gotoNearLogEntry(LogType lt, bool backward, QString notFoundMessage);
+ void NextError();
+@@ -1,1 +1,1 @@
+-abc
++def

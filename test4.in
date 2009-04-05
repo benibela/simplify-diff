@@ -1,0 +1,12 @@
+Index: smallUsefulFunctions.cpp
+===================================================================
+--- smallUsefulFunctions.cpp    (revision 113)
++++ smallUsefulFunctions.cpp    (working copy)
+@@ -1,4 +1,4 @@
+ abc
+-old
+-equal
+-more equal
++new
++equal
++more equal

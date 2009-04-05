@@ -1,0 +1,36 @@
+Index: smallUsefulFunctions.cpp
+===================================================================
+--- smallUsefulFunctions.cpp    (revision 113)
++++ smallUsefulFunctions.cpp    (working copy)
+@@ -1 +1 @@
+-unmodifed
++unmodified
+@@ -3589,18 +3616,18 @@
+ if (quickmode==5)  {confDlg->ui.radioButton5->setChecked(true); confDlg->ui.lineEditUserquick->setEnabled(false);}
+ if (quickmode==6)  {confDlg->ui.radioButton6->setChecked(true); confDlg->ui.lineEditUserquick->setEnabled(true);}
+ confDlg->ui.lineEditUserquick->setText(userquick_command);
+-
+-    QTreeWidgetItem * mainItem=new QTreeWidgetItem((QTreeWidget*)0, QStringList() << QString(tr("Menus")));
+-    foreach (QMenu* menu, managedMenus)
+-        managedMenuToTreeWidget(mainItem,menu);      
+-    confDlg->ui.shortcutTree->addTopLevelItem(mainItem);
+-    mainItem->setExpanded(true);
+-
+ 
++    QTreeWidgetItem * mainItem=new QTreeWidgetItem((QTreeWidget*)0, QStringList() << QString(tr("Menus")));
++    foreach (QMenu* menu, managedMenus)
++        managedMenuToTreeWidget(mainItem,menu);      
++    confDlg->ui.shortcutTree->addTopLevelItem(mainItem);
++    mainItem->setExpanded(true);
++
++
+ if (configManager.execConfigDialog(confDlg))
+-   {
+-       managedMenuNewShortcuts.clear();
+-       treeWidgetToManagedMenuTo(mainItem);
++   {
++       managedMenuNewShortcuts.clear();
++       treeWidgetToManagedMenuTo(mainItem);
+ 
+    if (confDlg->ui.radioButton1->isChecked()) quickmode=1;
+    if (confDlg->ui.radioButton2->isChecked()) quickmode=2;

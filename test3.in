@@ -1,0 +1,18 @@
+Index: smallUsefulFunctions.cpp
+===================================================================
+--- smallUsefulFunctions.cpp    (revision 113)
++++ smallUsefulFunctions.cpp    (working copy)
+@@ -1,12 +1,12 @@
+ this is going to be removed
+ this too
+ standard line count aim = 3
+ equal
+ more equal
+-deleted
++added
+ again equal
+ equal
+ last line
+ go away
+ bye
+ bye
