@@ -3,7 +3,6 @@ program simplifydiff;
 {$mode objfpc}{$H+}
 
 uses
-  Classes, SysUtils,
   diffreader,rcmdline //you can download these two files from www.benibela.de/components_en.html
   { you can add units after this }
 ;
