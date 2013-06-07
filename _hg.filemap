@@ -1,0 +1,4 @@
+include programs/data/diff
+include components/pascal/data/diffreader.pas
+rename programs/data/diff .
+rename components/pascal/data components
